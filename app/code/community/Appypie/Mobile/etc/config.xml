@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Appypie_Mobile>
+            <version>0.0.0.1</version>
+        </Appypie_Mobile>
+    </modules>
+    <global>
+        <models>
+            <mobile>
+                <class>Appypie_Mobile_Model</class>
+               
+            </mobile>
+            
+        </models>
+        <helpers>
+            <mobile>
+                <class>Appypie_Mobile_Helper</class>
+            </mobile>
+        </helpers>
+       
+        <resources>
+            <mobile_setup>
+                <setup>
+                    <module>Appypie_Mobile</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </mobile_setup>
+            <mobile_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </mobile_write>
+            <mobile_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </mobile_read>
+        </resources>
+        
+         <blocks>
+            <adminhtml>
+                <rewrite>
+                    <catalog_product_attribute_edit_tab_main>Appypie_Mobile_Adminhtml_Block_Catalog_Product_Attribute_Edit_Tab_Main</catalog_product_attribute_edit_tab_main>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+        
+    </global>
+</config>

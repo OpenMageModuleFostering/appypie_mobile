@@ -1,0 +1,465 @@
+<?xml version="1.0"?>
+<config>
+    <api>
+        <resources>
+			 <mobile_notifictaion translate="title" module="mobile">
+                <title>Appypie mobile Notification API calls</title>
+                 <model>mobile/notification_api</model>
+                <acl>appypie/mobile</acl>
+                <methods>
+					<info translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</info>
+                </methods>
+            </mobile_notifictaion>
+
+            <mobile_category translate="title" module="mobile">
+                <title>Appypie mobile Category API calls</title>
+                <model>mobile/category_api</model>
+                <acl>appypie/mobile</acl>
+                <methods>
+                     <info translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</info>
+                     <categorylist translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</categorylist>
+					<productlist translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</productlist>
+					<!--brandslist translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</brandslist-->
+					<manufacturerlist translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</manufacturerlist>
+                </methods>
+            </mobile_category>
+            <!-- Product -->
+            <mobile_product translate="title" module="mobile">
+                <title>Appypie mobile Product API calls</title>
+                <model>mobile/product_api</model>
+                <acl>appypie/mobile</acl>
+                <methods>
+					<tracking translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</tracking>
+					<addreview translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</addreview>
+					<brandslist translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</brandslist>
+					<spotlight translate="title" module="mobile">
+						<title>Returns version of this API</title>
+			 			<acl>appypie/mobile/allaccess</acl>
+					</spotlight>
+					<wishlistremove translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</wishlistremove>
+					<removewishlist translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</removewishlist>
+					<savebrandscustomer translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</savebrandscustomer>
+					<brandsproductlist translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</brandsproductlist>
+					<brandscategory translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</brandscategory>
+					<productdetail translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</productdetail>
+					<items translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</items>
+					<productlist translate="title" module="mobile">
+						<title>Returns1 version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</productlist>
+					<addwishlist translate="title" module="mobile">
+						<title>Returns1 version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</addwishlist>
+					<newproductlist translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</newproductlist>
+					<manufactureprodlist translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</manufactureprodlist>
+					<getcurrency translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</getcurrency>
+                </methods>
+            </mobile_product>
+
+            <!-- Cart -->
+            <mobile_cart translate="title" module="mobile">
+                <title>Appypie mobile Cart API calls</title>
+                <model>mobile/cart_api</model>
+                <acl>appypie/mobile</acl>
+                <methods>
+					<create translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</create>
+                   	<addcart translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</addcart>
+                   	<cartlist translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</cartlist>
+					<update translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</update>
+					<emptycart translate="title" module="mobile">
+						<title>Returns1 version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</emptycart>
+					<remove translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</remove>
+					<addcoupon translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</addcoupon>
+					<wishlisttocart translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</wishlisttocart>
+                </methods>
+                 <faults module="mobile">
+                    <coupon_code_is_not_valid>
+                        <code>1083</code>
+                        <message>Coupon code is not valid</message>
+                    </coupon_code_is_not_valid>
+                    <quote_is_empty>
+                        <code>1081</code>
+                        <message>Coupon could not be applied because quote is empty</message>
+                    </quote_is_empty>
+                    <cannot_apply_coupon_code>
+                        <code>1082</code>
+                        <message>Coupon could not be applied.</message>
+                    </cannot_apply_coupon_code>
+                    <product_qty_not_available_fault>
+                        <code>1084</code>
+                        <message>Product Qty is not available.</message>
+                    </product_qty_not_available_fault>
+                </faults>
+            </mobile_cart>
+            <!-- Shipping -->
+            <mobile_cart_shipping translate="title" module="mobile">
+                <title>Appypie mobile Cart Shipping API calls</title>
+                <model>mobile/cart_shipping_api</model>
+                <acl>appypie/mobile</acl>
+                <methods>
+                   	<setshippingmethod translate="title" module="mobile">
+						<title>Returns1 version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</setshippingmethod>
+					<calculatetax translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</calculatetax>
+					<calculation translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</calculation>
+                </methods>
+            </mobile_cart_shipping>
+            <!-- Payment -->
+            <mobile_cart_payment translate="title" module="mobile">
+                <title>Appypie mobile Cart Payment API calls</title>
+                <model>mobile/cart_payment_api</model>
+                <acl>appypie/mobile</acl>
+                <methods>
+                   <placeorder translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</placeorder>
+					<method translate="title" module="mobile">
+                        <title>Set payment method</title>
+                        <method>setPaymentMethod</method>
+                        <acl>cart/payment/method</acl>
+                    </method>
+                    <list translate="title" module="mobile">
+                        <title>Get list of available payment methods</title>
+                        <method>getPaymentMethodsList</method>
+                        <acl>cart/payment/list</acl>
+                    </list>
+                    <savepayment translate="title" module="mobile">
+                        <title>Save payment details</title>
+                        <acl>cart/payment/list</acl>
+                    </savepayment>
+                </methods>
+                <faults module="mobile">
+                    <payment_method_is_not_valid>
+                        <code>1001</code>
+                        <message>Payment Method is not valid</message>
+                    </payment_method_is_not_valid>
+                </faults>
+            </mobile_cart_payment>
+            <!-- Cart Customer -->
+            <mobile_cart_customer translate="title" module="mobile">
+                <title>Appypie mobile Cart Customer API calls</title>
+                <model>mobile/cart_customer_api</model>
+                <acl>appypie/mobile</acl>
+                <methods>
+					<addresses translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</addresses>
+                   	<setcustomer translate="title" module="mobile">
+						<title>Returns1 version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</setcustomer>
+                </methods>
+                <faults module="mobile">
+                    <customer_is_not_valid>
+                        <code>1001</code>
+                        <message>Customer is not valid</message>
+                    </customer_is_not_valid>
+                </faults>
+            </mobile_cart_customer>
+            <!-- Cart Product -->
+            <mobile_cart_product translate="title" module="mobile">
+                <title>Appypie mobile Cart Product API calls</title>
+                <model>mobile/cart_product_api</model>
+                <acl>appypie/mobile</acl>
+                <methods>
+					<moveToCustomerQuote translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</moveToCustomerQuote>
+					<getCustomerQuote translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</getCustomerQuote>
+
+                </methods>
+                <faults module="mobile">
+                    <customer_not_set_for_quote>
+                        <code>1001</code>
+                        <message>Customer not set for quote id</message>
+                    </customer_not_set_for_quote>
+                    <customer_quote_not_exist>
+                        <code>1001</code>
+                        <message>Customer quote id not exist</message>
+                    </customer_quote_not_exist>
+                </faults>
+            </mobile_cart_product>
+            <!-- Customer -->
+            <mobile_customer translate="title" module="mobile">
+                <title>Appypie mobile Cart API calls</title>
+                <model>mobile/customer_api</model>
+                <acl>appypie/mobile</acl>
+                <methods>
+					<logout translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</logout>
+					<notification translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</notification>
+					<deviceapp translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</deviceapp>
+					<create translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</create>
+					<login translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</login>
+					<update translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</update>
+					<changepassword translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</changepassword>
+					<forgotpassword translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</forgotpassword>
+					<feedback translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</feedback>
+
+					<info translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</info>
+                </methods>
+                <faults module="mobile">
+                    <data_invalid>
+                        <code>1001</code>
+                        <message>Email Id already exits.</message>
+                    </data_invalid>
+                </faults>
+            </mobile_customer>
+            <!-- Address -->
+            <mobile_customer_address translate="title" module="mobile">
+                <title>Appypie mobile customer address API calls</title>
+                <model>mobile/customer_address_api</model>
+                <acl>appypie/mobile</acl>
+                <methods>
+
+					<create translate="title" module="mobile">
+						<title>Returns1 version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</create>
+					<update translate="title" module="mobile">
+						<title>Returns1 version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</update>
+					<list translate="title" module="mobile">
+						<title>Returns1 version of this API</title>
+						<method>items</method>
+						<acl>appypie/mobile/allaccess</acl>
+					</list>
+
+                </methods>
+            </mobile_customer_address>
+            <!-- Sales -->
+            <mobile_sales_order translate="title" module="mobile">
+                <title>Appypie mobile sales order API calls</title>
+                <model>mobile/sales_order_api</model>
+                <acl>appypie/mobile</acl>
+                <methods>
+					<list translate="title" module="mobile">
+						<title>Returns1 version of this API</title>
+						<method>items</method>
+						<acl>appypie/mobile/allaccess</acl>
+					</list>
+					<info translate="title" module="mobile">
+						<title>Returns1 version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</info>
+                </methods>
+            </mobile_sales_order>
+             <!-- Wishlist -->
+            <mobile_wishlist translate="title" module="mobile">
+                <title>Appypie mobile wishlist API calls</title>
+                <model>mobile/wishlist_api</model>
+                <acl>appypie/mobile</acl>
+                <methods>
+					<addwishlist translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</addwishlist>
+					<listwishlist translate="title" module="mobile">
+						<title>Returns wishlist data by customer Email</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</listwishlist>
+					<removewishlist translate="title" module="mobile">
+						<title>Remove item from wishlist data by customer Email and product id</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</removewishlist>
+					<updatewishlist translate="title" module="mobile">
+						<title>Remove item from wishlist data by customer Email and product id</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</updatewishlist>
+					<countrylist translate="title" module="mobile">
+						<title>Remove item from wishlist data by customer Email and product id</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</countrylist>
+                </methods>
+            </mobile_wishlist>
+             <!-- Directory -->
+            <mobile_directory translate="title" module="mobile">
+                <title>Appypie mobile directory API calls</title>
+                <model>mobile/directory_api</model>
+                <acl>appypie/mobile</acl>
+                <methods>
+					<countrylist translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</countrylist>
+                </methods>
+            </mobile_directory>
+
+             <!--mobile_brands translate="title" module="mobile">
+                <title>Appypie mobile Brands API calls</title>
+                <model>mobile/brands_api</model>
+                <acl>appypie/mobile</acl>
+                <methods>
+                     <info translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</info>
+                     <brandslist translate="title" module="mobile">
+						<title>Returns version of this API</title>
+						<acl>appypie/mobile/allaccess</acl>
+					</brandslist>
+
+                </methods>
+			</mobile_brands-->
+        </resources>
+        <resources_alias><!-- here we can put aliases, shortened calls for our api resource, I haven't checked how alias behaves when it collides with different resource... -->
+			<mobile_notification>mobile_notification</mobile_notification>
+            <mobile_category>mobile_category</mobile_category>
+            <mobile_product>mobile_product</mobile_product>
+            <mobile_cart>mobile_cart</mobile_cart>
+            <mobile_customer>mobile_customer</mobile_customer>
+            <mobile_customer_address>mobile_customer_address</mobile_customer_address>
+            <mobile_cart_shipping>mobile_cart_shipping</mobile_cart_shipping>
+            <mobile_cart_payment>mobile_cart_payment</mobile_cart_payment>
+            <mobile_sales_order>mobile_sales_order</mobile_sales_order>
+            <mobile_cart_product>mobile_cart_product</mobile_cart_product>
+            <mobile_wishlist>mobile_wishlist</mobile_wishlist>
+            <mobile_directory>mobile_directory</mobile_directory>
+        </resources_alias>
+
+        <acl><!-- Access Control List  to our resources, this tree structure is displayed in "Resource Roles" panel when you open role to edit -->
+            <resources>
+                <appypie translate="title" module="mobile">
+                    <title>Appypie</title>
+                    <sort_order>100</sort_order>
+                    <mobile translate="title" module="mobile">
+                        <title>mobile</title>
+                        <sort_order>100</sort_order>
+                        <allaccess translate="title" module="mobile">
+                            <title>Core functionality required by all users.</title>
+                            <sort_order>10</sort_order>
+                        </allaccess>
+                        <owneraccess translate="title" module="mobile">
+                            <title>Functions accessible only for owner.</title>
+                            <sort_order>50</sort_order>
+                        </owneraccess>
+                    </mobile>
+                </appypie>
+            </resources>
+        </acl>
+    </api>
+</config>

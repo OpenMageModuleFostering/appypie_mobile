@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<config>
+    <acl>
+        <resources>
+			 <all>
+        <title>Allow Everything</title>
+      </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <mobile translate="title" module="mobile">
+                                        <title>Mobile</title>
+                                        <sort_order>999</sort_order>
+                                    </mobile>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
