@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/appypie_mobile",
+    "name": "openmage-module-fostering\/appypie_mobile",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Appypie Mobile",
     "authors": [
