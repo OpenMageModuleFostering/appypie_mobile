@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/appypie_mobile",
+    "name": "OpenMageModuleFostering\/appypie_mobile",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Appypie Mobile",
     "authors": [
-    {
-        "name": "Avadhesh",
-        "email": "av@appypie.com"
-    }
-],
+        {
+            "name": "Avadhesh",
+            "email": "av@appypie.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
